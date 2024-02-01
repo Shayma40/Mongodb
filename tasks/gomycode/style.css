@@ -1,0 +1,62 @@
+*{
+    font-family: "Roboto" sans-serif;
+    font-weight: lighter;
+}
+
+/* header part */
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: beige;
+    color: brown;
+}
+
+a{
+   color: black;
+text-decoration: wavy;
+}
+
+ul{
+   display: flex;
+}
+
+li{
+   margin: 1rem;
+   list-style: none;
+}
+
+.logo{
+   padding: 1rem;
+   
+}
+
+/* main part */
+
+.container{
+    background-color: aquamarine;
+    color: blanchedalmond;
+    width:40% ;
+    margin-left: 20%;
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 10%;
+    text-align: justify;
+    margin-right: 5%;
+
+}
+
+
+.container1{
+    background-color: aquamarine;
+    color: blanchedalmond;
+    width: 40%;
+    padding: 3%;
+    border-radius:10% ;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.all{
+ display: flex;   
+}
